@@ -4,8 +4,8 @@
 
 void soru1() {
 
- char cevap[20] = "apple";
- char girdi[20];
+ char *cevap = "apple";
+ char girdi[26];
     printf("Elmanın ingilizcesi nedir?: ");
     scanf("%s", girdi);
     char ctrl = strcmp(girdi, cevap);
@@ -20,8 +20,8 @@ void soru1() {
 
 void soru2() {
 
- char cevap[20] = "banana";
- char girdi[20];
+ char *cevap = "banana";
+ char girdi[26];
     printf("Muzun ingilizcesi nedir?: ");
     scanf("%s", girdi);
     char ctrl = strcmp(girdi, cevap);
@@ -37,8 +37,8 @@ void soru2() {
 
 void soru3() {
 
- char cevap[20] = "orange";
- char girdi[20];
+ char *cevap = "orange";
+ char girdi[26];
     printf("Portakalın ingilizcesi nedir?: ");
     scanf("%s", girdi);
     char ctrl = strcmp(girdi, cevap);
