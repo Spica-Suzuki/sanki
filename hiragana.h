@@ -18,9 +18,9 @@ void hiragana1() {
         if (ctrl == 0 ){
         printf("Doğru cevap \n");
     }
-    else { printf("Yanlış cevap \n"); }
+    else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
     
-}
+                    }
 
 void hiragana2() {
 
@@ -37,7 +37,7 @@ void hiragana2() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+                        }
 
 
 
@@ -55,7 +55,7 @@ void hiragana3() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana4() {
@@ -73,7 +73,7 @@ void hiragana4() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana5() {
@@ -91,7 +91,7 @@ void hiragana5() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana6() {
 
@@ -108,7 +108,7 @@ void hiragana6() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana7() {
 
@@ -125,7 +125,7 @@ void hiragana7() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana8() {
@@ -143,7 +143,7 @@ void hiragana8() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana9() {
 
@@ -160,7 +160,7 @@ void hiragana9() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana10() {
@@ -178,7 +178,7 @@ void hiragana10() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana11() {
 
@@ -195,7 +195,7 @@ void hiragana11() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana12() {
@@ -213,7 +213,7 @@ void hiragana12() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana13() {
 
@@ -230,7 +230,7 @@ void hiragana13() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana14() {
@@ -248,7 +248,7 @@ void hiragana14() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana15() {
@@ -266,7 +266,7 @@ void hiragana15() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana16() {
 
@@ -283,7 +283,7 @@ void hiragana16() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana17() {
@@ -301,7 +301,7 @@ void hiragana17() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -320,7 +320,7 @@ void hiragana18() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -339,7 +339,7 @@ void hiragana19() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -358,7 +358,7 @@ void hiragana20() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana21() {
@@ -376,7 +376,7 @@ void hiragana21() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana22() {
@@ -394,7 +394,7 @@ void hiragana22() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana23() {
@@ -412,7 +412,7 @@ void hiragana23() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -431,7 +431,7 @@ void hiragana24() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana25() {
 
@@ -448,7 +448,7 @@ void hiragana25() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana26() {
 
@@ -465,7 +465,7 @@ void hiragana26() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana27() {
@@ -483,7 +483,7 @@ void hiragana27() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 void hiragana28() {
 
@@ -500,7 +500,7 @@ void hiragana28() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -519,7 +519,7 @@ void hiragana29() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -538,7 +538,7 @@ void hiragana30() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -557,7 +557,7 @@ void hiragana31() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -576,7 +576,7 @@ void hiragana32() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -595,7 +595,7 @@ void hiragana33() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -614,7 +614,7 @@ void hiragana34() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -633,7 +633,7 @@ void hiragana35() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -652,7 +652,7 @@ void hiragana36() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -671,7 +671,7 @@ void hiragana37() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -690,7 +690,7 @@ void hiragana38() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -709,7 +709,7 @@ void hiragana39() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 
@@ -728,7 +728,7 @@ void hiragana40() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
 
 
 void hiragana41() {
@@ -746,4 +746,4 @@ void hiragana41() {
     }
     else { printf("Yanlış cevap, doğru cevap %s olacaktı \n", cevap); }
 
-}
+    }
