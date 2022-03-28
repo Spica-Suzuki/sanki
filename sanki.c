@@ -413,16 +413,8 @@ int main() {
                     {cevap+;}
                     break;
             }
-
-
-
-
-
-
-            while (cevap != 4294967294);
-            }
+        while (cevap != 4294967294);
+        }
     else {puts("çıkış");}
-
-
-
-    return 0;}
+return 0;
+}
