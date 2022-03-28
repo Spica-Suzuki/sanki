@@ -251,7 +251,7 @@ scanf("%d", &x);
 
             do {
                 srand(time(0));
-                int random = (rand() % 41) + 1;
+                int random = (rand() % 33) + 1;
 
 
 
