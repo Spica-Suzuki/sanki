@@ -4,7 +4,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include "rusca.h"
-
+// kendime not: boşluk ile switch ifadelerini değiştir
 int main() {
     unsigned int cevap = 0;
     puts("\n*************************************************************");
@@ -20,8 +20,9 @@ int main() {
                 switch (random) {
                     case 1 :
                         hiragana1();
-                        if (cevap >=0)
-                        {cevap++;}
+                        if (cevap >=0){
+                            cevap++;
+                        }
                         break;
                     case 2 :
                         hiragana2();
@@ -223,25 +224,9 @@ int main() {
                         if (cevap >=0)
                         {cevap++;}
                         break;}
-                    }
-
-
-
-
-
-                                    while (cevap != 4294967294);
-
-
                 }
-
-
-
-
-
-
-
-
-
+            while (cevap != 4294967294);
+    }
     else if (x == 2) {
         do {
             srand(time(0));
@@ -403,18 +388,22 @@ int main() {
                     {cevap++;}
                     break;
                 case 32 :
-                    rus32(;
-                    if (ceap >=0)
-                    {cevap+;}
-                    break
-                case 33 
-                    rus33(;
-                    if (ceap >=0)
-                    {cevap+;}
+                    rus32();
+                    if (cevap >=0)
+                    {cevap++;}
+                    break;
+                case 33 :
+                    rus33();
+                    if (cevap >=0)
+                    {cevap++;}
                     break;
             }
-        while (cevap != 4294967294);
         }
+    
+        while (cevap != 4294967292);
+        
+    }
     else {puts("çıkış");}
 return 0;
 }
+
