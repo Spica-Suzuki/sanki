@@ -224,10 +224,8 @@ int main() {
                     if (cevap >=0)
                     {cevap++;}
                     break;}
-            }
-        while (cevap != 4294967294);
-    }
-    else if (x == 2) {
+        }while (cevap != 4294967294);
+    } else if (x == 2) {
         do {
             srand(time(0));
             int random = (rand() % 33) + 1;
@@ -398,13 +396,9 @@ int main() {
                     {cevap++;}
                     break;
             }
-        }
-
-        while (cevap != 4294967292);
-
+        }while (cevap != 4294967292);
+    } else {
+        puts("çıkış");
     }
-else {
-    puts("çıkış");
-    }
-return 0;
+    return 0;
 }
