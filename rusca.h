@@ -2,9 +2,10 @@
 #include <string.h>
 #include <time.h>
 
+char girdi[4];
+
 void rus1() {
-     char *cevap = "a";
-     char girdi[4];    
+     char *cevap = "a";    
      
     printf("Bu hangi harftir A-a: ");
     scanf("%s", girdi);
@@ -17,7 +18,6 @@ void rus1() {
 void rus2() {
 
      char *cevap = "b";
-     char girdi[4];
     
     printf("Bu hangi harftir Б-б: ");
     scanf("%s", girdi);
@@ -30,7 +30,6 @@ void rus2() {
 void rus3() {
 
      char *cevap = "v";
-     char girdi[4];
     
     printf("Bu hangi harftir В-в: ");
     scanf("%s", girdi);
@@ -43,7 +42,6 @@ void rus3() {
 void rus4() {
 
      char *cevap = "g";
-     char girdi[4];
     
     printf("Bu hangi harftir Г-г: ");
     scanf("%s", girdi);
@@ -56,7 +54,6 @@ void rus4() {
 void rus5() {
 
      char *cevap = "d";
-     char girdi[4];
     
     printf("Bu hangi harftir Д-д: ");
     scanf("%s", girdi);
@@ -69,7 +66,6 @@ void rus5() {
 void rus6() {
 
      char *cevap = "ye";
-     char girdi[4];
     
     printf("Bu hangi harftir Е-е: ");
     scanf("%s", girdi);
@@ -82,7 +78,6 @@ void rus6() {
 void rus7() {
 
      char *cevap = "yo";
-     char girdi[4];
     
     printf("Bu hangi harftir Ё-ё: ");
     scanf("%s", girdi);
@@ -95,7 +90,6 @@ void rus7() {
 void rus8() {
 
      char *cevap = "j";
-     char girdi[4];
     
     printf("Bu hangi harftir Ж-ж: ");
     scanf("%s", girdi);
@@ -108,7 +102,6 @@ void rus8() {
 void rus9() {
 
      char *cevap = "z";
-     char girdi[4];
     
     printf("Bu hangi harftir З-з: ");
     scanf("%s", girdi);
@@ -121,7 +114,6 @@ void rus9() {
 void rus10() {
 
      char *cevap = "i";
-     char girdi[4];
     
     printf("Bu hangi harftir И-и: ");
     scanf("%s", girdi);
@@ -134,7 +126,6 @@ void rus10() {
 void rus11() {
 
      char *cevap = "y";
-     char girdi[4];
     
     printf("Bu hangi harftir Й-й: ");
     scanf("%s", girdi);
@@ -147,7 +138,6 @@ void rus11() {
 void rus12() {
 
      char *cevap = "k";
-     char girdi[4];
     
     printf("Bu hangi harftir К-к: ");
     scanf("%s", girdi);
@@ -160,7 +150,6 @@ void rus12() {
 void rus13() {
 
      char *cevap = "l";
-     char girdi[4];
     
     printf("Bu hangi harftir Л-л: ");
     scanf("%s", girdi);
@@ -173,7 +162,6 @@ void rus13() {
 void rus14() {
 
      char *cevap = "n";
-     char girdi[4];
     
     printf("Bu hangi harftir Н-н: ");
     scanf("%s", girdi);
@@ -186,7 +174,6 @@ void rus14() {
 void rus15() {
 
      char *cevap = "o";
-     char girdi[4];
     
     printf("Bu hangi harftir O-o: ");
     scanf("%s", girdi);
@@ -199,7 +186,6 @@ void rus15() {
 void rus16() {
 
      char *cevap = "p";
-     char girdi[4];
     
     printf("Bu hangi harftir П-п: ");
     scanf("%s", girdi);
@@ -212,7 +198,6 @@ void rus16() {
 void rus17() {
 
      char *cevap = "r";
-     char girdi[4];
     
     printf("Bu hangi harftir P-p: ");
     scanf("%s", girdi);
@@ -225,7 +210,6 @@ void rus17() {
 void rus18() {
 
      char *cevap = "s";
-     char girdi[4];
     
     printf("Bu hangi harftir C-c: ");
     scanf("%s", girdi);
@@ -238,7 +222,6 @@ void rus18() {
 void rus19() {
 
      char *cevap = "t";
-     char girdi[4];
     
     printf("Bu hangi harftir Т-т: ");
     scanf("%s", girdi);
@@ -251,7 +234,6 @@ void rus19() {
 void rus20() {
 
      char *cevap = "u";
-     char girdi[4];
     
     printf("Bu hangi harftir У-у: ");
     scanf("%s", girdi);
@@ -264,7 +246,6 @@ void rus20() {
 void rus21() {
 
      char *cevap = "f";
-     char girdi[4];
     
     printf("Bu hangi harftir Ф-ф: ");
     scanf("%s", girdi);
@@ -277,7 +258,6 @@ void rus21() {
 void rus22() {
 
      char *cevap = "h";
-     char girdi[4];
     
     printf("Bu hangi harftir X-x: ");
     scanf("%s", girdi);
@@ -290,7 +270,6 @@ void rus22() {
 void rus23() {
 
      char *cevap = "ts";
-     char girdi[4];
     
     printf("Bu hangi harftir Ц-ц: ");
     scanf("%s", girdi);
@@ -303,7 +282,6 @@ void rus23() {
 void rus24() {
 
      char *cevap = "ç";
-     char girdi[4];
     
     printf("Bu hangi harftir Ч-ч: ");
     scanf("%s", girdi);
@@ -316,7 +294,6 @@ void rus24() {
 void rus25() {
 
      char *cevap = "ş";
-     char girdi[4];
     
     printf("Bu hangi harftir Ш-ш: ");
     scanf("%s", girdi);
@@ -329,7 +306,6 @@ void rus25() {
 void rus26() {
 
      char *cevap = "şç";
-     char girdi[4];
     
     printf("Bu hangi harftir Щ-щ: ");
     scanf("%s", girdi);
@@ -355,7 +331,6 @@ void rus27() {
 void rus28() {
 
      char *cevap = "ı";
-     char girdi[4];
     
     printf("Bu hangi harftir ы: ");
     scanf("%s", girdi);
@@ -381,7 +356,6 @@ void rus29() {
 void rus30() {
 
      char *cevap = "e";
-     char girdi[4];
     
     printf("Bu hangi harftir Э-э: ");
     scanf("%s", girdi);
@@ -394,7 +368,6 @@ void rus30() {
 void rus31() {
 
      char *cevap = "yu";
-     char girdi[4];
     
     printf("Bu hangi harftir Ю-ю: ");
     scanf("%s", girdi);
@@ -407,7 +380,6 @@ void rus31() {
 void rus32() {
 
      char *cevap = "ya";
-     char girdi[4];
     
     printf("Bu hangi harftir Я-я: ");
     scanf("%s", girdi);
@@ -420,7 +392,6 @@ void rus32() {
 void rus33() {
 
      char *cevap = "m";
-     char girdi[4];
     
     printf("Bu hangi harftir М-м: ");
     scanf("%s", girdi);
