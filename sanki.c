@@ -12,11 +12,11 @@ int main() {
     int x;
     printf("Lütfen mod seçiniz:  \n 1-Hiragana\t 2-Kiril \n");
     scanf("%d", &x);
-    if (x = 1) {
+    if (x == 1) {
         hiragana();
         }        
     
-    else if (x = 2) {
+    else if (x == 2) {
         rus();
         }
            
