@@ -20,9 +20,8 @@ void hiragana() {
         const short x = 1;
         srand(time(0));
         int y = (rand() % 41);
-        int z = y;
         char ctrl;
-            printf("Bu hangi harftir %s: ", soru[z]);
+            printf("Bu hangi harftir %s: ", soru[y]);
             scanf("%s", girdi);
 
             ctrl = strcmp(girdi, cevap[y]);
