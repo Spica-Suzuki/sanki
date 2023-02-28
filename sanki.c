@@ -4,13 +4,14 @@
 #include <stdlib.h>
 #include "rusca.h"
 #include "hiragana.h"
+#include "renk.h"
 
 int main() {
-    puts("\n*************************************************************");
-    puts("Spica Suzuki tarafindan gelistirilen Sanki 1.4'e hosgeldiniz!");
-    puts("************************************************************* \n");
+    printf("%s······························································\n",YESIL);
+    printf("%sSpica Suzuki tarafından geliştirilen Sanki 1.6'ya hoşgeldiniz!\n",MAVI);
+    printf("%s······························································\n\n%s",YESIL, NORMAL);
     int x;
-    printf("Lütfen mod seçiniz:  \n 1-Hiragana\t 2-Kiril \n");
+    printf("Başlamak için lütfen bir mod seçiniz:  \n\n%s 1-Hiragana\t 2-Kiril%s \n\nSeç: ",SARI, NORMAL);
     scanf("%d", &x);
     if (x == 1) {
         hiragana();
