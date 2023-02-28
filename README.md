@@ -5,6 +5,6 @@ Simple word quiz game written in c.
 
 Güncelleme 1.5 renkler eklendi
 
-Güncelleme 1.6 Sözlük uygulaması eklendi
+Güncelleme 1.6 Sözlük uygulaması ekleniyor (üzerinde çalışılıyor)
 
 Planlanan güncellemeler: Daha iyi bir arayüz (gui veya terminal), Daha esnek ve kolay, son kullanıcıya hitap edilecek şekilde editlenebilirlik.
