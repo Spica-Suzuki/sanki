@@ -6,6 +6,10 @@
 #include "hiragana.h"
 #include "renk.h"
 
+#define PROGRAM_NAME "sanki"
+
+#define AUTHORS proper_name ("Spica 'Mai' Suzuki")
+
 int main() {
     printf("%s······························································\n",YESIL);
     printf("%sSpica Suzuki tarafından geliştirilen Sanki 1.6'ya hoşgeldiniz!\n",MAVI);
