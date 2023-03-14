@@ -2,6 +2,7 @@
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
+#include "renk.h"
 
 void rus() {
     
@@ -21,12 +22,12 @@ void rus() {
         srand(time(0));
         int y = (rand() % 33);
         char ctrl;
-            printf("Bu hangi harftir %s: ", soru[y]);
+            printf("Bu hangi harftir %s%s%s: ", MOR, soru[y],NORMAL);
             scanf("%s", girdi);
 
             ctrl = strcmp(girdi, cevap[y]);
 
-            printf("Verilen yanıt %s.\t", girdi);
-            (ctrl == 0 ) ? printf("Doğru cevap \n") : printf("Yanlış cevap, doğru cevap %s olacaktı \n ", cevap[y]); 
+            printf("Verilen yanıt %s%s%s.\t",MAVI, girdi, NORMAL);
+            (ctrl == 0 ) ? printf("%sDoğru cevap \n%s", YESIL, NORMAL) : printf("%sYanlış%s cevap, doğru cevap %s%s%s olacaktı \n",KIRMIZI,NORMAL, YESIL, cevap[y], NORMAL); 
     }
 }
