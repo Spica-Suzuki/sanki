@@ -5,10 +5,10 @@
 #include "renk.h"
 
 void rus() {
-    
+
     char cevap [][8] = {
     "a", "b", "v", "g", "d", "ye", "yo", "j", "z", "i", "y", "k", "l", "m", "n", "o", "p", "r", "s",
-    "t", "u", "f", "h", "ts", "ç", "ş", "şç", "sert", "ı", "yumuşak", "e", "yu", "ya" 
+    "t", "u", "f", "h", "ts", "ç", "ş", "şç", "sert", "ı", "yumuşak", "e", "yu", "ya"
     };
 
     char soru [][8] = {
@@ -25,9 +25,12 @@ void rus() {
             printf("Bu hangi harftir %s%s%s: ", MOR, soru[y],NORMAL);
             scanf("%s", girdi);
 
+
+            if                                                    (strcmp(girdi, "exit") == 0) {                           TERMINATE();
+            }
             ctrl = strcmp(girdi, cevap[y]);
 
             printf("Verilen yanıt %s%s%s.\t",MAVI, girdi, NORMAL);
-            (ctrl == 0 ) ? printf("%sDoğru cevap \n%s", YESIL, NORMAL) : printf("%sYanlış%s cevap, doğru cevap %s%s%s olacaktı \n",KIRMIZI,NORMAL, YESIL, cevap[y], NORMAL); 
+            (ctrl == 0 ) ? printf("%sDoğru cevap \n%s", YESIL, NORMAL) : printf("%sYanlış%s cevap, doğru cevap %s%s%s olacaktı \n",KIRMIZI,NORMAL, YESIL, cevap[y], NORMAL);
     }
 }
