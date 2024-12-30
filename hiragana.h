@@ -33,8 +33,6 @@ void hiragana() {
         TERMINATE();
             }
 
-
-
             ctrl = strcmp(girdi, cevap[y]);
 
             printf("Verilen yanıt %s%s%s.\t",MAVI, girdi, NORMAL);
