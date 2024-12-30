@@ -1,3 +1,8 @@
+#define TERMINATE() do { \
+    printf("Exiting from lib1...\n"); \
+    exit(1); \
+} while (0)
+
 #define SIYAH "\x1b[30m"
 #define KIRMIZI "\x1b[31m"
 #define YESIL "\x1b[32m"
