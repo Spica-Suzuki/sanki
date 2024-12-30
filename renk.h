@@ -1,5 +1,5 @@
 #define TERMINATE() do { \
-    printf("Exiting from lib1...\n"); \
+    printf("Program sonlandırılıyor, oynadığınız için teşekkürler\n"); \
     exit(1); \
 } while (0)
 
